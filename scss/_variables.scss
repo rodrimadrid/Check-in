@@ -1,0 +1,14 @@
+@mixin set($color, $padding) {
+color: $color;
+padding: $padding;
+}
+
+span.col{
+  @include set(orange,   0);
+  font-family: 'Bungee', cursive;
+}
+span.col--bis{
+  @include set(#f1590e,  0);
+  font-family: 'Bungee', cursive;
+
+}

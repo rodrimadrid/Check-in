@@ -1,0 +1,15 @@
+.nav-link__st{
+  text-decoration: none;
+  font-family: 'Bungee', cursive;
+  color: orange !important;
+  margin: 0 3.5rem;
+  }
+.nav-link__st--n{
+  @extend.nav-link__st;
+}
+.nav-item:hover .nav-link{
+  color: black !important;
+}
+.nav-item:hover .nav-link__st--n{
+  color: white;
+}

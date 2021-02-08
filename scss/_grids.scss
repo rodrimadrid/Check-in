@@ -1,0 +1,13 @@
+.grid-index{
+  display: grid;
+  grid-template-areas:
+  ".. .. .."
+  "desc desc desc"
+  ".. .. .. "
+  ".. .. .."
+  "serv serv image"
+  "footer footer footer"
+  ;
+  grid-template-columns: 20% 25% 55%;
+  grid-template-rows: 10% 30% 30% 15% 75% 20rem;
+}

@@ -1,0 +1,31 @@
+.footer{
+  grid-area: footer;
+  width: 100%;
+  display: flex;
+  background-image: url("../images/objetivos.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: #ffcb65;
+}
+.footer__icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 100%;
+}
+.footer__icon--scale{
+  margin: 15px;
+  width: 4rem;
+  height: 4rem;
+}
+.footer__text{
+  height: 100%;
+  width: 50%;
+}
+.footer__text--h2{
+  padding: 20px;
+  font-family: 'Bungee', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
