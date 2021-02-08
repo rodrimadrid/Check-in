@@ -21,7 +21,8 @@
 .encabezado {
   margin: 5%;
   display: flex;
-  height: 8rem; }
+  height: 20rem;
+  align-items: flex-end; }
 
 .encabezado__h2 {
   font-family: 'Bungee', cursive;
@@ -156,3 +157,7 @@ span.col--bis {
   color: #f1590e;
   padding: 0;
   font-family: 'Bungee', cursive; }
+
+span.col-w {
+  color: white;
+  padding: 0; }

@@ -10,5 +10,7 @@ span.col{
 span.col--bis{
   @include set(#f1590e,  0);
   font-family: 'Bungee', cursive;
-
+}
+span.col-w{
+  @include set(white, 0);
 }
