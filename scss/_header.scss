@@ -1,3 +1,12 @@
+//header index
+.header__bkg{
+  background-image: url("../images/check-in.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 45rem;
+}
+
 /*header nosotros*/
 .encabezado{
   margin: 5%;
@@ -10,5 +19,4 @@
   color: #ffe598;
   margin: 20px;
   padding: 15px;
-
 }
