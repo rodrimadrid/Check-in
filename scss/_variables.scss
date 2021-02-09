@@ -7,10 +7,23 @@ span.col{
   @include set(orange,   0);
   font-family: 'Bungee', cursive;
 }
-span.col--bis{
+a.col--link{
   @include set(#f1590e,  0);
   font-family: 'Bungee', cursive;
+  text-decoration: none;
 }
 span.col-w{
   @include set(white, 0);
+}
+.redes__link{
+  text-decoration: none;
+}
+a.redes__link:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+a.col--link:hover {
+  transition: 1s;
+  text-decoration: none;
+  color: white;
 }
