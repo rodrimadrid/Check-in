@@ -57,6 +57,11 @@
   width: 2rem;
   height: 2rem; }
 
+.footer__icon--scalefc {
+  margin: 30px;
+  width: 1.2rem;
+  height: 2.2rem; }
+
 .footer__text {
   height: 100%;
   width: 50%; }
@@ -171,7 +176,9 @@ span.col-w {
   padding: 0; }
 
 .redes__link {
-  text-decoration: none; }
+  text-decoration: none;
+  height: 2rem;
+  width: 2rem; }
 
 a.redes__link:hover {
   transform: scale(1.1);
@@ -181,3 +188,8 @@ a.col--link:hover {
   transition: 1s;
   text-decoration: none;
   color: white; }
+
+@media screen and (max-width: 800px) {
+  body.index--bkg {
+    width: 100vh;
+    background-image: url("../images/fondo2.png"); } }
