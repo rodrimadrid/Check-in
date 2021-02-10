@@ -14,3 +14,9 @@
     height: 30rem;
   }
 }
+@media screen and (max-width: 860px){
+  .grid-index{
+    
+    grid-template-rows: 40% 40% 75% 20rem;
+  }
+}

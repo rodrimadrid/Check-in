@@ -4,7 +4,7 @@ padding: $padding;
 }
 
 span.col{
-  @include set(orange,   0);
+  @include set(#fba000,   0);
   font-family: 'Bungee', cursive;
 }
 a.col--link{

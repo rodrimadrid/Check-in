@@ -2,7 +2,8 @@
   background-color: white; }
 
 .nosotros--bkg {
-  background-image: url("../images/mongol.png"); }
+  background-image: url("../images/mongol.png");
+  background-size: cover; }
 
 .nav-link__st, .nav-link__st--n {
   text-decoration: none;
@@ -38,9 +39,9 @@
 
 .grid-index {
   display: grid;
-  grid-template-areas: "serv serv serv " "serv serv serv" "image image .." "footer footer footer";
+  grid-template-areas: "serv serv serv " "serv serv serv" "pasajes pasajes pasajes" "footer footer footer";
   grid-template-columns: 33% 33% auto;
-  grid-template-rows: 35% 35% 75% 20rem; }
+  grid-template-rows: 35% 35% 50% 20rem; }
 
 .footer {
   grid-area: footer;
@@ -91,15 +92,52 @@
   height: 10rem;
   width: 100%; }
 
-.image {
+.pasajes {
+  grid-area: pasajes;
+  background-image: url("../images/pasajes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.pasajes__box {
+  display: flex;
+  padding: 30px; }
+
+.pasajes__h3 {
+  font-family: 'Bungee', cursive;
+  font-size: 2rem; }
+
+.pasajes__h3 span.col {
+  font-size: 3rem; }
+
+.pasajes__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px; }
+
+.pasajes__text--p {
+  font-family: 'Bungee', cursive;
+  font-size: 1.5rem; }
+
+.pasajes__text--p2 {
+  font-family: 'Bungee', cursive;
+  font-size: 1.2rem; }
+
+.pasajes__h4 {
+  font-family: 'Bungee', cursive;
+  font-size: 2rem; }
+
+/*.image{
   grid-area: image;
   display: flex;
-  justify-content: flex-end; }
-
-.image__tmb {
+  justify-content: flex-end;
+}
+.image__tmb{
   height: 100%;
-  width: 85%; }
-
+  width: 85%;
+}*/
 .serv {
   grid-area: serv;
   display: flex; }
@@ -120,8 +158,8 @@
   font-family: 'Roboto Condensed', sans-serif; }
 
 .btn__psj {
-  height: 100%;
-  width: 20%;
+  height: 2.8em;
+  width: 100%;
   display: inline-block;
   font-family: 'Bungee', cursive;
   color: black;
@@ -131,10 +169,10 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: transparent;
+  background-color: #fba000;
   border: 1px solid orange;
   padding: .375rem .75rem;
-  font-size: 0.8rem;
+  font-size: 9em;
   line-height: 1.5;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
@@ -167,7 +205,7 @@ button.btn__psj:hover {
   align-items: center; }
 
 span.col {
-  color: orange;
+  color: #fba000;
   padding: 0;
   font-family: 'Bungee', cursive; }
 
@@ -206,3 +244,7 @@ a.col--link:hover {
 @media screen and (max-width: 900px) {
   .header__bkg {
     height: 30rem; } }
+
+@media screen and (max-width: 860px) {
+  .grid-index {
+    grid-template-rows: 40% 40% 75% 20rem; } }

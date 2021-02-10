@@ -4,7 +4,46 @@
   height: 10rem;
   width: 100%;
 }
-.image{
+.pasajes{
+  grid-area: pasajes;
+  background-image: url("../images/pasajes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pasajes__box{
+  display: flex;
+
+  padding: 30px;
+}
+.pasajes__h3{
+  font-family: 'Bungee', cursive;
+  font-size: 2rem;
+}
+.pasajes__h3 span.col{
+  font-size: 3rem;
+}
+.pasajes__text{
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px
+
+}
+.pasajes__text--p{
+  font-family: 'Bungee', cursive;
+  font-size: 1.5rem;
+}
+.pasajes__text--p2{
+  font-family: 'Bungee', cursive;
+  font-size: 1.2rem;
+}
+.pasajes__h4{
+  font-family: 'Bungee', cursive;
+  font-size: 2rem;
+}
+/*.image{
   grid-area: image;
   display: flex;
   justify-content: flex-end;
@@ -12,11 +51,12 @@
 .image__tmb{
   height: 100%;
   width: 85%;
-}
+}*/
 
 .serv{
   grid-area: serv;
   display: flex;
+
 }
 .serv__ul{
   font-family: 'Bungee', cursive;
@@ -34,8 +74,8 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 .btn__psj{
-  height: 100%;
-  width: 20%;
+  height: 2.8em;
+  width: 100%;
   display: inline-block;
   font-family: 'Bungee', cursive;
   color: black;
@@ -45,10 +85,10 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: transparent;
+  background-color: #fba000;
   border: 1px solid orange;
   padding: .375rem .75rem;
-  font-size: 0.8rem;
+  font-size: 9em;
   line-height: 1.5;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
