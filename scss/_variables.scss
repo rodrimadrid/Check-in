@@ -5,7 +5,14 @@ padding: $padding;
 
 span.col{
   @include set(#fba000,   0);
-  font-family: 'Bungee', cursive;
+  
+}
+.col--red{
+  @include set(#f1590e, 0);
+
+}
+.col--ye{
+  @include set(yellow, 0);
 }
 a.col--link{
   @include set(#f1590e,  0);
