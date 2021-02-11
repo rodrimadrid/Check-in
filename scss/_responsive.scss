@@ -16,7 +16,50 @@
 }
 @media screen and (max-width: 860px){
   .grid-index{
-    
-    grid-template-rows: 40% 40% 75% 20rem;
+
+    grid-template-rows: 40% 40% 25% 20rem;
+  }
+  .pasajes__box{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pasajes__box--side{
+    width: 100%;
+  }
+  .col--ye{
+    color: #f1590e;
+  }
+  .serv__box{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 790px){
+  .logo{
+    font-size: 7rem;
+  }
+  .header__bkg{
+    background-size: auto;
+  }
+  .grid-index{
+
+    grid-template-rows: 40% 40% 35% 20rem;
+  }
+}
+@media screen and (max-width: 610px){
+  .logo{
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 468px){
+  .logo{
+    font-size: 3.7rem;
+  }
+  .pasajes__h3{
+    font-size: 2rem;
+  }
+
+  .footer__text--h2{
+    font-size: 1.5rem;
   }
 }
