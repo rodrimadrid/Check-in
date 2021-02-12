@@ -277,7 +277,8 @@ a.col--link:hover {
     grid-template-rows: 40% 40% 25% 20rem; }
   .pasajes__box {
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    padding: 30px 0; }
   .pasajes__box--side {
     width: 100%; }
   .col--ye {
@@ -303,9 +304,23 @@ a.col--link:hover {
     height: 30%; } }
 
 @media screen and (max-width: 468px) {
+  .grid-index {
+    grid-template-rows: 40% 40% 27% 20rem; }
   .logo {
     font-size: 3.7rem; }
+  .logo__sub {
+    font-size: 1.2rem; }
   .pasajes__h3 {
     font-size: 2rem; }
   .footer__text--h2 {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem;
+    padding: 0;
+    margin-top: 15px; }
+  .footer__icon {
+    justify-content: end; }
+  .redes__link {
+    margin: 15px 0; }
+  .footer__icon--scale {
+    margin: 10px; }
+  .footer__icon--scalefc {
+    margin: 10px 15px; } }
