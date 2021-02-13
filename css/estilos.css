@@ -2,8 +2,7 @@
   background-color: white; }
 
 .nosotros--bkg {
-  background-image: url("../images/mongol.png");
-  background-size: cover; }
+  background-color: black; }
 
 .nav-link__st, .nav-link__st--n {
   text-decoration: none;
@@ -33,7 +32,7 @@
 
 .encabezado__h2 {
   font-family: 'Bungee', cursive;
-  color: #ffe598;
+  color: orange;
   margin: 20px;
   padding: 15px; }
 
@@ -201,20 +200,28 @@ button.btn__psj:hover {
   color: orange; }
 
 /* Contenido nosotros styles */
+.backg {
+  background-image: url("../images/barcelona.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 17rem;
+  width: 100%;
+  margin: 5rem 0; }
+
 .container-fluid__p {
-  margin-left: 20px;
-  padding: 10px;
-  color: white;
+  margin: 4rem;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2rem;
-  border: 1px solid;
-  border-color: orange; }
+  color: white;
+  text-align: justify; }
 
 .container-fluid__tittle {
   font-family: 'Bungee', cursive;
-  font-size: 1.4rem;
-  color: orange;
-  margin: 30px 20px; }
+  font-size: 2.2rem;
+  margin: 30px 4rem;
+  color: white;
+  text-align: center; }
 
 .redes {
   height: 100%;
