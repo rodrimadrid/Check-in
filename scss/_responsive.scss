@@ -99,6 +99,12 @@
   .col--img{
     width: 100%;
   }
+  .foooter__nos{
+    flex-direction: column-reverse;
+  }
+  .footer__box{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 468px){

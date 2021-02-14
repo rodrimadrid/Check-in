@@ -36,16 +36,17 @@
 }
 // footer nosotros//
 .foooter__nos{
-  height: 15em;
+  display: flex;
+  flex-flow: row nowrap;
 }
 .footer__box{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
-  width: 35%;
+  width: 70%;
   padding: 5%;
 }
+
 .footer__h3{
   font-family: 'Bungee', cursive;
   color: white;
@@ -55,4 +56,15 @@
 .footer__redes{
   display: flex;
   justify-content: space-evenly;
+  margin: 10%;
+}
+.footer__p{
+  align-self: center;
+  color: white;
+}
+.form{
+  width: -webkit-fill-available;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  padding: 5%;
 }
