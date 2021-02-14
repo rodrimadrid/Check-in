@@ -330,3 +330,28 @@ a.col--link:hover {
     margin: 10px; }
   .footer__icon--scalefc {
     margin: 10px 15px; } }
+
+@media screen and (max-width: 320px) {
+  .encabezado__h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    text-align: center; }
+  .backg {
+    margin: 2em 0; }
+  .container-fluid__tittle {
+    margin: 2em 0;
+    font-size: 1.6em; }
+  .container-fluid__p {
+    margin: 0;
+    letter-spacing: -0.075em; }
+  .red {
+    height: 12em; }
+  .redes {
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    align-items: baseline;
+    margin-top: 3em; }
+  .col--img {
+    width: 100%; } }
