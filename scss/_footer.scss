@@ -34,3 +34,25 @@
   font-size: 2rem;
   text-align: center;
 }
+// footer nosotros//
+.foooter__nos{
+  height: 15em;
+}
+.footer__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 35%;
+  padding: 5%;
+}
+.footer__h3{
+  font-family: 'Bungee', cursive;
+  color: white;
+  margin: 10% 0;
+  text-align: center;
+}
+.footer__redes{
+  display: flex;
+  justify-content: space-evenly;
+}

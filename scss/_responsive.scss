@@ -33,6 +33,9 @@
   .serv__box{
     flex-direction: column;
   }
+  .encabezado{
+    height: 21em;
+  }
 }
 @media screen and (max-width: 790px){
   .logo{
@@ -45,8 +48,11 @@
 
     grid-template-rows: 40% 40% 35% 20rem;
   }
+  .encabezado{
+    height: 22em;
+  }
 }
-@media screen and (max-width: 610px){
+@media screen and (max-width: 640px){
   .logo{
     font-size: 6rem;
   }
@@ -65,7 +71,7 @@
     text-align: center;
   }
   .encabezado{
-    height: 17em;
+    height: 12em;
   }
   .backg{
     margin: 2em 0;
@@ -76,7 +82,7 @@
   }
   .container-fluid__p{
     margin: 0;
-    letter-spacing: -0.075em;
+    text-align: center;
     padding: 15px;
   }
   .red{
@@ -129,7 +135,7 @@
   }
   // resposive nosotros //
   .encabezado{
-    height: 20em;
+    height: 17em;
   }
 }
 @media screen and (max-width: 320px){
