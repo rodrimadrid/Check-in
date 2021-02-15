@@ -1,7 +1,7 @@
-.index--bkg {
+.white--bkg {
   background-color: white; }
 
-.nosotros--bkg {
+.black--bkg {
   background-color: black; }
 
 .nav-link__st, .nav-link__st--n {
@@ -211,7 +211,7 @@
 
 .btn__psj {
   height: 2.8em;
-  width: 100%;
+  width: 60%;
   display: inline-block;
   font-family: 'Bungee', cursive;
   color: black;
@@ -224,7 +224,7 @@
   background-color: #fba000;
   border: 2px solid black;
   margin: 1.8rem;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
