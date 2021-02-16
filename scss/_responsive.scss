@@ -9,10 +9,14 @@
   }
 
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 910px){
   .header__bkg{
     height: 30rem;
   }
+  .contact--bkg{
+    background-size: auto;
+  }
+
 }
 @media screen and (max-width: 860px){
   .grid-index{
@@ -35,6 +39,9 @@
   }
   .encabezado{
     height: 21em;
+  }
+  .serv__ul{
+    height: auto;
   }
 }
 @media screen and (max-width: 790px){

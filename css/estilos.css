@@ -6,7 +6,8 @@
 
 .contact--bkg {
   background-image: url("../images/avion.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .nav-link__st, .nav-link__st--n {
   text-decoration: none;
@@ -21,7 +22,7 @@
   color: white; }
 
 .header__bkg {
-  background-image: url("../images/check-in.png");
+  background-image: url("../images/cielo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -347,9 +348,11 @@ a.col--link:hover {
   .header__bkg {
     height: 38rem; } }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   .header__bkg {
-    height: 30rem; } }
+    height: 30rem; }
+  .contact--bkg {
+    background-size: auto; } }
 
 @media screen and (max-width: 860px) {
   .grid-index {
@@ -365,7 +368,9 @@ a.col--link:hover {
   .serv__box {
     flex-direction: column; }
   .encabezado {
-    height: 21em; } }
+    height: 21em; }
+  .serv__ul {
+    height: auto; } }
 
 @media screen and (max-width: 790px) {
   .logo {
