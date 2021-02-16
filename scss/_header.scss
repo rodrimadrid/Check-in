@@ -20,3 +20,17 @@
   margin: 20px;
   padding: 15px;
 }
+
+//header contacto
+.header__contacto{
+  grid-area: header;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header__h2{
+  height: 20%;
+  font-family: 'Bungee', cursive;
+  text-align: center;
+}

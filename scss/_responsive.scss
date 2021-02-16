@@ -52,6 +52,20 @@
     height: 22em;
   }
 }
+@media screen and (max-width: 765px) {
+  .grid-contacto{
+    grid-template-areas:
+    "header header "
+    "form form"
+    "form form"
+    "pie pie ";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 25% 35% auto;
+  }
+  .header__h2{
+    margin-bottom: 10%;
+  }
+}
 @media screen and (max-width: 640px){
   .logo{
     font-size: 6rem;
@@ -106,7 +120,11 @@
     width: 100%;
   }
 }
-
+@media screen and (max-width: 510px){
+  .grid-contacto{
+    grid-template-rows: 30% 25% 45% auto;
+  }
+}
 @media screen and (max-width: 468px){
   .grid-index{
 

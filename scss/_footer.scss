@@ -50,13 +50,13 @@
 .footer__h3{
   font-family: 'Bungee', cursive;
   color: white;
-  margin: 10% 0;
   text-align: center;
 }
 .footer__redes{
   display: flex;
   justify-content: space-evenly;
-  margin: 10%;
+  margin: 5%;
+  padding: 0 10%;
 }
 .footer__p{
   align-self: center;
@@ -67,4 +67,15 @@
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
   padding: 5%;
+}
+//footer contacto
+.contact__footer{
+  grid-area: pie;
+  display: flex;
+}
+.contact__footer__redes{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2%;
+  padding: 0 20%;
 }

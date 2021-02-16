@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <title>Check-in | Contacto</title>
   </head>
-  <body>
+  <body class="contact--bkg">
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top ">
       <!-- Brand -->
       <a class="navbar-brand navbar--log" href="../index.html"> <img src="../images/LOGO.png" alt="logo" style="width: 3em"> </a>
@@ -39,30 +39,37 @@
    <div class="grid-contacto">
 
 
-<header>
-  <h2>Contacto</h2>
+<header class="header__contacto">
+  <h2 class="header__h2">Contacto</h2>
 </header>
-<form class="" action="index.html" method="get">
+<form class="contact__form" action="index.html" method="get">
 <div class="form-group">
-  <label for="nombre">Nombre completo</label>
-  <input type="text" name="nombre" class="form-control">
+  <input type="text" name="nombre" placeholder="Nombre" class="form-control">
 </div>
 <div class="form-group">
-  <label for="edad">edad</label>
-  <input type="number" name="edad" class="form-control">
+  <input type="number" name="edad" placeholder="Edad" class="form-control">
 </div>
 <div class="form-group">
-  <label for="lugar">¿A donde viajarías?</label>
-  <input type="text" name="lugar" class="form-control">
+  <input type="text" name="lugar" placeholder="¿Dónde te gustaría viajar?" class="form-control">
 </div>
 <div class="form-group">
-  <label for="email">email</label>
-  <input type="email" name="email" class="form-control">
+  <input type="email" name="email" placeholder="E-mail" class="form-control">
 </div>
-<label for="expectativas">¿Cuales son tus expectativas?</label>
-<textarea name="expectativas" rows="8" cols="30"></textarea>
+<textarea class="form-control" name="expectativas" rows="5" placeholder="¿Cuales son tus expectativas?"></textarea><br>
 <input type="submit" name="Enviar" class="form__btm" value="Enviar">
 </form>
+<footer class="contact__footer">
+  <div class="footer__box" style="width: 100%">
+    <h3 class="footer__h3">check<span class="col">-in</span></h3>
+    <div class="contact__footer__redes">
+      <a class="footer__redes--link"href="https://www.instagram.com/viaje.recreativo.virtual/"><img style="width: 20px"src="../images/instagram-1.png" alt=""></a>
+      <a class="footer__redes--link"href="https://www.facebook.com/ViajeRecreativoVirtual"> <img style="width: 15px"src="../images/face.png" alt=""></a>
+    </div>
+    <p class="footer__p">- ©2021 Check-in® Sitio oficial -</p>
+  </div>
+</footer>
+
+
 </div>
 
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

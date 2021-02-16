@@ -8,3 +8,13 @@
   grid-template-columns: 33% 33% auto;
   grid-template-rows: 35% 35% 25% 20rem;
 }
+.grid-contacto{
+  display: grid;
+  grid-template-areas:
+  "header header .. .."
+  ".. .. form form"
+  ".. .. form form"
+  "pie pie form form";
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 35% 25% 25% auto;
+}
