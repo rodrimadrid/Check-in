@@ -25,7 +25,7 @@
   background-image: url("../images/cielo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: right;
   height: 45rem; }
 
 /*header nosotros*/
@@ -57,7 +57,7 @@
   display: grid;
   grid-template-areas: "serv serv serv " "serv serv serv" "pasajes pasajes pasajes" "footer footer footer";
   grid-template-columns: 33% 33% auto;
-  grid-template-rows: 35% 35% 25% 20rem; }
+  grid-template-rows: 35% 26% 25% 20rem; }
 
 .grid-contacto {
   display: grid;
@@ -212,7 +212,7 @@
 
 .serv__box {
   display: flex;
-  height: 100%; }
+  margin: 5%; }
 
 .serv__ul {
   font-family: 'Bungee', cursive;
@@ -224,7 +224,7 @@
   padding: 1rem;
   text-align: center; }
 
-.serv__ul--li {
+.serv__li {
   margin: 0 0.5rem;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -341,7 +341,7 @@ a.col--link:hover {
   color: white; }
 
 @media screen and (max-width: 1163px) {
-  .serv__ul--res {
+  .serv__li--res {
     margin-top: 25px; } }
 
 @media screen and (max-width: 1100px) {
@@ -356,7 +356,7 @@ a.col--link:hover {
 
 @media screen and (max-width: 860px) {
   .grid-index {
-    grid-template-rows: 40% 40% 25% 20rem; }
+    grid-template-rows: 40% 20% 25% 20rem; }
   .pasajes__box {
     flex-direction: column;
     justify-content: center;
@@ -376,9 +376,10 @@ a.col--link:hover {
   .logo {
     font-size: 7rem; }
   .header__bkg {
-    background-size: auto; }
+    background-size: auto;
+    background-position: top; }
   .grid-index {
-    grid-template-rows: 40% 40% 35% 20rem; }
+    grid-template-rows: 40% 15% 35% 20rem; }
   .encabezado {
     height: 22em; } }
 
@@ -435,7 +436,7 @@ a.col--link:hover {
 
 @media screen and (max-width: 468px) {
   .grid-index {
-    grid-template-rows: 40% 40% 27% 20rem; }
+    grid-template-rows: 40% 20% 27% 20rem; }
   .logo {
     font-size: 3.7rem; }
   .logo__sub {
@@ -457,6 +458,8 @@ a.col--link:hover {
   .encabezado {
     height: 17em; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .container-fluid__p {
-    padding: 0; } }
+    padding: 0; }
+  .grid-index {
+    grid-template-rows: 40% 21% 27% 20rem; } }

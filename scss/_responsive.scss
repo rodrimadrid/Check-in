@@ -1,5 +1,5 @@
 @media screen and (max-width: 1163px) {
-  .serv__ul--res{
+  .serv__li--res{
     margin-top: 25px;
   }
 }
@@ -21,7 +21,7 @@
 @media screen and (max-width: 860px){
   .grid-index{
 
-    grid-template-rows: 40% 40% 25% 20rem;
+    grid-template-rows: 40% 20% 25% 20rem;
   }
   .pasajes__box{
     flex-direction: column;
@@ -37,6 +37,7 @@
   .serv__box{
     flex-direction: column;
   }
+
   .encabezado{
     height: 21em;
   }
@@ -50,10 +51,11 @@
   }
   .header__bkg{
     background-size: auto;
+    background-position: top;
   }
   .grid-index{
 
-    grid-template-rows: 40% 40% 35% 20rem;
+    grid-template-rows: 40% 15% 35% 20rem;
   }
   .encabezado{
     height: 22em;
@@ -135,7 +137,7 @@
 @media screen and (max-width: 468px){
   .grid-index{
 
-    grid-template-rows: 40% 40% 27% 20rem;
+    grid-template-rows: 40% 20% 27% 20rem;
   }
   .logo{
     font-size: 3.7rem;
@@ -164,13 +166,16 @@
   .footer__icon--scalefc{
     margin: 10px 15px;
   }
-  // resposive nosotros //
   .encabezado{
     height: 17em;
   }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 360px){
   .container-fluid__p{
     padding: 0;
+  }
+  .grid-index{
+
+    grid-template-rows: 40% 21% 27% 20rem;
   }
 }
