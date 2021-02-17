@@ -45,6 +45,11 @@
     height: auto;
   }
 }
+@media screen and (min-width: 790px){
+  nav.bg-light{
+    background-color: transparent !important;
+  }
+}
 @media screen and (max-width: 790px){
   .logo{
     font-size: 7rem;

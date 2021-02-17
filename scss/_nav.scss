@@ -4,12 +4,12 @@
   color: orange !important;
   margin: 0 3.5rem;
   }
-.nav-link__st--n{
+.nav-link__st--w{
   @extend.nav-link__st;
 }
-.nav-item:hover .nav-link{
+.nav-item:hover .nav-link__st{
   color: black !important;
 }
-.nav-item:hover .nav-link__st--n{
-  color: white;
+.nav-item:hover .nav-link__st--w{
+  color: white !important;
 }

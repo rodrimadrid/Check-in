@@ -9,17 +9,17 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-.nav-link__st, .nav-link__st--n {
+.nav-link__st, .nav-link__st--w {
   text-decoration: none;
   font-family: 'Bungee', cursive;
   color: orange !important;
   margin: 0 3.5rem; }
 
-.nav-item:hover .nav-link {
+.nav-item:hover .nav-link__st, .nav-item:hover .nav-link__st--w {
   color: black !important; }
 
-.nav-item:hover .nav-link__st--n {
-  color: white; }
+.nav-item:hover .nav-link__st--w {
+  color: white !important; }
 
 .header__bkg {
   background-image: url("../images/cielo.jpg");
@@ -371,6 +371,10 @@ a.col--link:hover {
     height: 21em; }
   .serv__ul {
     height: auto; } }
+
+@media screen and (min-width: 790px) {
+  nav.bg-light {
+    background-color: transparent !important; } }
 
 @media screen and (max-width: 790px) {
   .logo {
