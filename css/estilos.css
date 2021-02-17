@@ -374,6 +374,8 @@ a.col--link:hover {
 
 @media screen and (min-width: 790px) {
   nav.bg-light {
+    background-color: transparent !important; }
+  nav.bg-dark {
     background-color: transparent !important; } }
 
 @media screen and (max-width: 790px) {
