@@ -258,7 +258,7 @@
   border: 2px solid black;
   margin: 1.8rem;
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 1.1;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
 
@@ -462,4 +462,4 @@ a.col--link:hover {
   .container-fluid__p {
     padding: 0; }
   .grid-index {
-    grid-template-rows: 40% 21% 27% 20rem; } }
+    grid-template-rows: 40% 23% 27% auto; } }
