@@ -9,17 +9,20 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-.nav-link__st, .nav-link__st--w {
+.nav-link__st, .nav-link__st--w, .nav-link__st--r {
   text-decoration: none;
   font-family: 'Bungee', cursive;
   color: orange !important;
   margin: 0 3.5rem; }
 
-.nav-item:hover .nav-link__st, .nav-item:hover .nav-link__st--w {
+.nav-item:hover .nav-link__st, .nav-item:hover .nav-link__st--w, .nav-item:hover .nav-link__st--r {
   color: black !important; }
 
 .nav-item:hover .nav-link__st--w {
   color: white !important; }
+
+.nav-item:hover .nav-link__st--r {
+  color: #f1590e !important; }
 
 .header__bkg {
   background-image: url("../images/cielo.jpg");
@@ -52,6 +55,22 @@
   height: 20%;
   font-family: 'Bungee', cursive;
   text-align: center; }
+
+.header__viajes {
+  background-image: url("../images/viajes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+  display: flex;
+  align-items: center; }
+
+.h1__viajes {
+  font-family: 'Bungee', cursive;
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
+  color: #f1590e;
+  text-shadow: 2px 2px orange; }
 
 .grid-index {
   display: grid;
@@ -462,7 +481,9 @@ a.col--link:hover {
   .footer__icon--scalefc {
     margin: 10px 15px; }
   .encabezado {
-    height: 17em; } }
+    height: 17em; }
+  .h1__viajes {
+    font-size: 2em; } }
 
 @media screen and (max-width: 360px) {
   .container-fluid__p {

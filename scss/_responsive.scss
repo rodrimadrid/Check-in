@@ -177,6 +177,9 @@
   .encabezado{
     height: 17em;
   }
+  .h1__viajes{
+    font-size: 2em;
+  }
 }
 @media screen and (max-width: 360px){
   .container-fluid__p{
@@ -186,4 +189,5 @@
 
     grid-template-rows: 40% 23% 27% auto;
   }
+
 }

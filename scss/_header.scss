@@ -34,3 +34,20 @@
   font-family: 'Bungee', cursive;
   text-align: center;
 }
+// header Viajes
+.header__viajes{
+  background-image: url('../images/viajes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+  display: flex;
+  align-items: center;
+}
+.h1__viajes{
+  font-family: 'Bungee', cursive;
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
+  color: #f1590e;
+  text-shadow: 2px 2px orange;
+}

@@ -7,9 +7,15 @@
 .nav-link__st--w{
   @extend.nav-link__st;
 }
+.nav-link__st--r{
+  @extend.nav-link__st;
+}
 .nav-item:hover .nav-link__st{
   color: black !important;
 }
 .nav-item:hover .nav-link__st--w{
   color: white !important;
+}
+.nav-item:hover .nav-link__st--r{
+  color: #f1590e !important;
 }
