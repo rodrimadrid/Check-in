@@ -1,26 +1,26 @@
-@mixin set($color, $padding) {
+@mixin set($color, $padding, $font) {
 color: $color;
 padding: $padding;
+font-family: $font, cursive;
 }
 
 span.col{
-  @include set(#fba000,   0);
-  
+  @include set(#fba000, 0, 'Bungee');
+
 }
 .col--red{
-  @include set(#f1590e, 0);
+  @include set(#f1590e, 0, 'Bungee');
 
 }
 .col--ye{
-  @include set(yellow, 0);
+  @include set(yellow, 0, 'Bungee');
 }
 a.col--link{
-  @include set(#f1590e,  0);
-  font-family: 'Bungee', cursive;
+  @include set(#f1590e,  0, 'Bungee');
   text-decoration: none;
 }
 span.col-w{
-  @include set(white, 0);
+  @include set(white, 0, 'Bungee');
 }
 .redes__link{
   text-decoration: none;

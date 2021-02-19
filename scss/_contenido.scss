@@ -152,9 +152,14 @@ button.btn__psj:hover {
 
 }
 
-
-
 //contenido Contacto styles
 .contact__form{
   grid-area: form;
+}
+//contenido viajes stylesheet
+p.card-text{
+  font-family: 'Bungee', cursive;
+}
+.ans1:active{
+  background-color: orange !important;
 }
