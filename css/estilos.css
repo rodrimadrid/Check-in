@@ -331,8 +331,13 @@ button.btn__psj:hover {
 p.card-text {
   font-family: 'Bungee', cursive; }
 
-.ans1:active {
-  background-color: orange !important; }
+.ans1 {
+  transition-delay: 1.2s;
+  transition-duration: 5s;
+  background-position: center; }
+
+.ans1:hover {
+  background-image: url("../images/Machu Picchu.jpg"); }
 
 span.col {
   color: #fba000;
@@ -427,7 +432,7 @@ a.col--link:hover {
   .grid-contacto {
     grid-template-areas: "header header " "form form" "form form" "pie pie ";
     grid-template-columns: 50% 50%;
-    grid-template-rows: 30% 25% 35% auto; }
+    grid-template-rows: 30% 25% 35% 7em; }
   .header__h2 {
     margin-bottom: 10%; } }
 
@@ -472,7 +477,7 @@ a.col--link:hover {
 
 @media screen and (max-width: 510px) {
   .grid-contacto {
-    grid-template-rows: 30% 25% 45% auto; } }
+    grid-template-rows: 30% 25% 45% 7em; } }
 
 @media screen and (max-width: 468px) {
   .grid-index {
@@ -497,6 +502,8 @@ a.col--link:hover {
     margin: 10px 15px; }
   .encabezado {
     height: 17em; }
+  .contact--bkg {
+    background-position: top; }
   .h1__viajes {
     font-size: 2em; } }
 

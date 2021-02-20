@@ -160,6 +160,13 @@ button.btn__psj:hover {
 p.card-text{
   font-family: 'Bungee', cursive;
 }
-.ans1:active{
-  background-color: orange !important;
+.ans1{
+
+  transition-delay: 1.2s;
+  transition-duration: 5s;
+  background-position: center;
+}
+.ans1:hover{
+  background-image: url('../images/Machu Picchu.jpg');
+
 }
