@@ -1,4 +1,20 @@
+Vue.component('pasajes', {
+  template:
+  `
 
+    <div class="pago">
+      <h2>Sumate a esta experiencia!</h2>
+      <p>Consegui tu pasasje acá!</p>
+      <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+      data-preference-id="217174733-c52ea558-d533-4611-ba0d-3b5c880e6158"
+      data-source="button" target="_blank">
+      </script>
+
+
+    </div>
+  `
+
+})
 Vue.component('card', {
   props: ['card'],
   template:

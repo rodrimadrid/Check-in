@@ -382,6 +382,10 @@ button.btn__psj:hover {
   width: -webkit-fill-available;
   height: 520px; }
 
+.pago {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white; }
+
 span.col {
   color: #fba000;
   padding: 0;
