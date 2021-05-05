@@ -1,4 +1,4 @@
-
+@import "variables";
 /* contenido index styles */
 .container--empty{
   height: 10rem;
@@ -157,16 +157,17 @@ button.btn__psj:hover {
   grid-area: form;
 }
 //contenido viajes stylesheet
-p.card-text{
+.bg-ciudad{
+  background-image: url("../images/ciudad prohibida.jpg");
+  background-position: bottom;
+}
+.viaje--pregunta{
   font-family: 'Bungee', cursive;
+  font-size: 1.4rem;
+  color: orange;
+  text-shadow: 2px 2px black;
 }
-.ans1{
-
-  transition-delay: 1.2s;
-  transition-duration: 5s;
-  background-position: center;
-}
-.ans1:hover{
-  background-image: url('../images/Machu Picchu.jpg');
-
+.google--form{
+  width: -webkit-fill-available;
+  height: 520px;
 }

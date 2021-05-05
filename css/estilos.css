@@ -176,6 +176,46 @@
   font-family: 'Bungee', cursive;
   text-align: right; }
 
+span.col {
+  color: #fba000;
+  padding: 0;
+  font-family: "Bungee", cursive; }
+
+.col--red {
+  color: #f1590e;
+  padding: 0;
+  font-family: "Bungee", cursive; }
+
+.col--ye {
+  color: yellow;
+  padding: 0;
+  font-family: "Bungee", cursive; }
+
+a.col--link {
+  color: #f1590e;
+  padding: 0;
+  font-family: "Bungee", cursive;
+  text-decoration: none; }
+
+span.col-w {
+  color: white;
+  padding: 0;
+  font-family: "Bungee", cursive; }
+
+.redes__link {
+  text-decoration: none;
+  height: 2rem;
+  width: 2rem; }
+
+a.redes__link:hover {
+  transform: scale(1.1);
+  transition: 1s; }
+
+a.col--link:hover {
+  transition: 1s;
+  text-decoration: none;
+  color: white; }
+
 /* contenido index styles */
 .container--empty {
   height: 10rem;
@@ -328,16 +368,19 @@ button.btn__psj:hover {
 .contact__form {
   grid-area: form; }
 
-p.card-text {
-  font-family: 'Bungee', cursive; }
+.bg-ciudad {
+  background-image: url("../images/ciudad prohibida.jpg");
+  background-position: bottom; }
 
-.ans1 {
-  transition-delay: 1.2s;
-  transition-duration: 5s;
-  background-position: center; }
+.viaje--pregunta {
+  font-family: 'Bungee', cursive;
+  font-size: 1.4rem;
+  color: orange;
+  text-shadow: 2px 2px black; }
 
-.ans1:hover {
-  background-image: url("../images/Machu Picchu.jpg"); }
+.google--form {
+  width: -webkit-fill-available;
+  height: 520px; }
 
 span.col {
   color: #fba000;

@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
     <title>Check-in | Contacto</title>
   </head>
   <body class="contact--bkg">
+    <div id="app" class="container-fluid">
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top ">
       <!-- Brand -->
       <a class="navbar-brand navbar--log" href="../index.html"> <img src="../images/LOGO.png" alt="logo" style="width: 3em"> </a>
@@ -25,7 +27,7 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link nav-link__st" href="nosotros.html">nosotros</a>
+            <a class="nav-link nav-link__st" href="nosotros.html">nosotrxs</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link__st" href="viajes.html">viajes</a>
@@ -42,22 +44,36 @@
 <header class="header__contacto">
   <h2 class="header__h2">Contacto</h2>
 </header>
-<form class="contact__form" action="index.html" method="get">
+
+
+<form class="contact__form" action="index.html" method="post">
 <div class="form-group">
-  <input type="text" name="nombre" placeholder="Nombre" class="form-control">
+  <input type="text" name="nombre" placeholder="Nombre"
+   class="form-control" v-model="contacto.nombre">
 </div>
 <div class="form-group">
-  <input type="number" name="edad" placeholder="Edad" class="form-control">
+  <input type="number" name="edad" placeholder="Edad"
+   class="form-control" v-model="contacto.edad">
 </div>
 <div class="form-group">
-  <input type="text" name="lugar" placeholder="¿Dónde te gustaría viajar?" class="form-control">
+  <input type="text" name="lugar" placeholder="¿Dónde te gustaría viajar?"
+   class="form-control" v-model="contacto.lugar">
 </div>
 <div class="form-group">
-  <input type="email" name="email" placeholder="E-mail" class="form-control">
+  <input type="email" name="email" placeholder="E-mail"
+  class="form-control" v-model="contacto.email">
 </div>
-<textarea class="form-control" name="expectativas" rows="5" placeholder="¿Cuales son tus expectativas?"></textarea><br>
-<input type="submit" name="Enviar" class="form__btm"  value="Enviar"><br><br>
+<textarea class="form-control" name="expectativas" rows="5"
+placeholder="¿Cuales son tus expectativas?" v-model="contacto.expectativas"></textarea><br>
+<input type="submit" name="Enviar" class="form__btm btn btn-primary"
+ value="Enviar">
+<input type="reset" name="reset" value="Vaciar"
+@click='vaciarLocalStorage' class="btn btn-danger">
+ <br><br>
 </form>
+
+
+
 <footer class="contact__footer">
   <div class="footer__box" style="width: 100%">
     <h3 class="footer__h3">check<span class="col">-in</span></h3>
@@ -71,9 +87,11 @@
 
 
 </div>
+</div>
 
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="../js/jquery.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+   <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="../js/vue/contactoMain.js"></script>
   </body>
 </html>
