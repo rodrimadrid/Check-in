@@ -2,7 +2,7 @@ Vue.component('pasajes', {
   template:
   `
 
-    <div class="pago">
+    <div id="mp" class="pago">
       <h2>Sumate a esta experiencia!</h2>
       <p>Consegui tu pasasje acá!</p>
       <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
@@ -28,7 +28,8 @@ Vue.component('card', {
       <div class="text-center">
         <h3 class="viaje--pregunta">{{card.pregunta}}</h3>
       </div>
-      <button @click="toggleBtn" class='text-center w-25 btn mt-4' :class="card.btn">INICIAR</button>
+      <button @click="toggleBtn" v-if="!boton" class='text-center w-25 btn mt-4' :class="card.btn">INICIAR</button>
+      <button @click="toggleBtn" v-else class='text-center w-25 btn mt-4' :class="card.btn">VOLVER</button>
     </div>
     <iframe v-if="boton"
      src="https://docs.google.com/forms/d/e/1FAIpQLSfDtLxxOF-etxY9S8x_pG1-w_HvyjBJInU5OPtgVFEqesbcfw/viewform?embedded=true"
@@ -41,7 +42,8 @@ Vue.component('card', {
   `,
   data(){
     return{
-      boton: false
+      boton: false,
+      btnText: 'INICIAR'
     }
   },
   methods: {
@@ -52,8 +54,6 @@ Vue.component('card', {
 
 })
 
-
-
 new Vue ({
   el: "#app",
   data: {
@@ -62,7 +62,6 @@ new Vue ({
         pregunta: 'Empezas el viaje?',
         bg: 'bg-ciudad',
         btn: 'btn-success',
-        juego: 'Lorem ipsum dolor sit amet'
      }
 
      ]

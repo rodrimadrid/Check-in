@@ -3,11 +3,7 @@ color: $color;
 padding: $padding;
 font-family: $font, cursive;
 }
-@mixin ans($delay, $duration, $position) {
-  transition-delay: $delay;
-  transition-duration: $duration;
-  background-position: $position;
-}
+
 span.col{
   @include set(#fba000, 0, 'Bungee');
 

@@ -47,15 +47,29 @@
     <card v-for='card of cards' :card='card'></card>
 
   </div>
-  <div class="pago text-center m-5 p-5">
+  <section id="reseñas"  >
+  <!--  <div id="reseñasBox" class="d-flex">-->
+      <span id="btnLeft"style="color: red"><</span>
+      <div class="resBox">
+      <div class="reseña">
+        <p><span class="col--red">Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+      </div>
+      <div class="reseña">
+        <p>Lorem ipsum dolor sit amet, <span class="col">consectetur adipisicing elit</span>, sed do eiusmod tempor incididunt. </p>
+      </div>
+      <div class="reseña">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<span class="col--ye"> incididunt.</span> </p>
+      </div>
+      <div class="reseña">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+      </div>
+      </div>
+      <span id="btnRight"style="color: red">></span>
+  <!--  </div>-->
+  </section>
+  <div id="pago" class="pago text-center m-5 p-5">
     <h2>Sumate a esta experiencia!</h2>
     <p>Consegui tu pasasje acá!</p>
-    <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-    data-preference-id="217174733-c52ea558-d533-4611-ba0d-3b5c880e6158"
-    data-source="button" target="_blank">
-    </script>
-
-
   </div>
 
   <footer class="foooter__nos">
