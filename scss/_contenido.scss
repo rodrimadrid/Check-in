@@ -183,8 +183,8 @@ button.btn__psj:hover {
   padding: 3em;
   background-image: url("../images/zoom.jpg");
   background-position: center;
-  position: relative;
-
+  display: flex;
+  justify-content: center;
 }
 // #reseñasBox{
 //   position: absolute;
@@ -193,30 +193,85 @@ button.btn__psj:hover {
 //   left: -3000px;
 //   transition: 1.5s;
 // }
-.reseña{
+// .reseña{
+//   width: 12em;
+//   margin: 20px 40px;
+//   padding: 20px;
+//   background-color: rgba(255, 255, 255, 0.7);
+//   visibility: hidden;
+//   position: absolute;
+//   left: -200px;
+//   top: 20px;
+//   transition: 1.2s;
+// }
+//
+// .resBox{
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   transition: 1.5s;
+//   position: relative;
+// }
+// #btnLeft{
+//   left: 2em;
+//   top: 45%;
+//   color: red;
+//   position: absolute;
+//   z-index: 1500;
+// }
+// #btnRight{
+//   right: 2em;
+//   top: 45%;
+//   color: red;
+//   position: absolute;
+//   z-index: 1500;
+// }
+#carrusel {
+    width:600px;
+    overflow:hidden;
+    height:203px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#carrusel .left-arrow {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+#carrusel .right-arrow {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+.carrusel {
+    width:4000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+
+.carrusel>div {
+    float: left;
+    height: 203px;
+    width: 195px;
+    text-align:center;
+}
+
+.carrusel img {
+    cursor:pointer;
+}
+
+.product {
   width: 12em;
-  margin: 20px 40px;
+  margin: 20px 50px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.7);
-}
-.resBox{
-  display: flex;
-  position: absolute;
-  justify-content: space-between;
-  align-items: center;
-  transition: 1.5s;
-}
-#btnLeft{
-  left: 2em;
-  top: 45%;
-  color: red;
-  position: absolute;
-  z-index: 1500;
-}
-#btnRight{
-  right: 2em;
-  top: 45%;
-  color: red;
-  position: absolute;
-  z-index: 1500;
 }
