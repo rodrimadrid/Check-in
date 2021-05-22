@@ -614,4 +614,6 @@ a.col--link:hover {
   .container-fluid__p {
     padding: 0; }
   .grid-index {
-    grid-template-rows: 40% 23% 27% auto; } }
+    grid-template-rows: 40% 23% 27% auto; }
+  #reseñas {
+    padding: 15px; } }

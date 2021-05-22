@@ -184,7 +184,7 @@
     font-size: 2em;
   }
   #reseñas{
-    padding: 35px; 
+    padding: 35px;
   }
 }
 @media screen and (max-width: 360px){
@@ -195,5 +195,7 @@
 
     grid-template-rows: 40% 23% 27% auto;
   }
-
+  #reseñas{
+    padding: 15px;
+  }
 }
