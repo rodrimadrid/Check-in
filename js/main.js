@@ -17,17 +17,3 @@ $(document).scroll(function(){
     $("#1.reseña").css({left: "0", visibility: "visible"})
   }
 })
-$("#btnRight").click((e)=>{
-  for (var i = 0; i < reseñas.length; i++) {
-    var visibility = document.getElementById(i).style.visibility
-    if (visibility == "visible") {
-      $('#'+i).css({left: "300px", visibility: "hidden"})
-    }
-  }
-
-})
-/*$("#btnLeft").click((e)=>{
-  if () {
-  }
-
-})*/
