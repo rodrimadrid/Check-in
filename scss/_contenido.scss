@@ -57,7 +57,7 @@
 }
 .pasajes--link:hover{
   text-decoration: none;
-  
+
 }
 .serv{
   grid-area: serv;
@@ -181,23 +181,26 @@ button.btn__psj:hover {
 .pago{
   font-family: 'Roboto Condensed', sans-serif;
   color:white;
+  margin: 5em 0;
 }
 #reseñas{
 
   width: 100%;
-  height: 350px;
+  height: 500px;
   margin: 5em 0;
   padding: 3em;
   background-image: url("../images/zoom.jpg");
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #carrusel {
     width:600px;
     overflow:hidden;
-    height:203px;
+    height:250px;
     position:relative;
     margin-top:20px;
     margin-bottom:20px;
@@ -228,7 +231,7 @@ button.btn__psj:hover {
 
 .carrusel>div {
     float: left;
-    height: 203px;
+    height: 250px;
     width: 195px;
     text-align:center;
 }
@@ -239,7 +242,16 @@ button.btn__psj:hover {
 
 .product {
   width: 12em;
+  height: 250px;
   margin: 20px 50px;
   padding: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: rgba(255, 255, 255, 0.7);
+}
+.reseñas--title{
+  font-family: 'Bungee', cursive;
+  color: orange;
+  text-shadow: 2px 2px black;
+  text-align: center;
+
 }
