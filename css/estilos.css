@@ -406,50 +406,14 @@ button.btn__psj:hover {
   justify-content: center;
   align-items: center; }
 
-#carrusel {
-  width: 600px;
-  overflow: hidden;
-  height: 250px;
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-#carrusel .left-arrow {
-  position: absolute;
-  left: 10px;
-  z-index: 1;
-  top: 50%;
-  margin-top: -9px; }
-
-#carrusel .right-arrow {
-  position: absolute;
-  right: 10px;
-  z-index: 1;
-  top: 50%;
-  margin-top: -9px; }
-
-.carrusel {
-  width: 4000px;
-  left: 0px;
-  position: absolute;
-  z-index: 0; }
-
-.carrusel > div {
-  float: left;
-  height: 250px;
-  width: 195px;
-  text-align: center; }
-
-.carrusel img {
-  cursor: pointer; }
-
 .product {
-  width: 12em;
-  height: 250px;
+  font-size: 1.45em;
+  height: 16em;
   margin: 20px 50px;
-  padding: 20px;
+  padding: 30px;
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: rgba(255, 255, 255, 0.7); }
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center; }
 
 .reseñas--title {
   font-family: 'Bungee', cursive;
@@ -637,4 +601,6 @@ a.col--link:hover {
   .grid-index {
     grid-template-rows: 40% 23% 27% auto; }
   #reseñas {
-    padding: 15px; } }
+    padding: 15px; }
+  .product {
+    font-size: 1em; } }

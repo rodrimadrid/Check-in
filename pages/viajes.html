@@ -49,40 +49,45 @@
   </div>
   <section id="reseñas"  >
     <h2 class="reseñas--title">Experiencias de viaje</h2>
-    <div id="carrusel">
-        <a href="#" class="left-arrow"><img src="../images/left-arrow.svg" /></a>
-        <a href="#" class="right-arrow"><img src="../images/right-arrow.svg" /></a>
-        <div class="carrusel">
-            <div class="product" id="product_0">
-
-                <p>Estuvo muy bueno! Me encantó el juego, que es como mezcla de escape room y viajes. Tremenda idea que se sacaron! Muchas felicitaciones chicos. </p>
-            </div>
-            <div class="product" id="product_1">
-
-                <p>Un placer y gusto poder compartir este juego , muy lindo . A seguir jugando en estos viajes👏👏👏👏💪💪 </p>
-            </div>
-            <div class="product" id="product_2">
-
-                <p>Gracias, la verdad que siempre estoy coordinando actividades ludicas y me di cuenta que tengo que jugar mas. Felicitaciones muy buena propuesta. </p>
-            </div>
-            <div class="product" id="product_3">
-
-                <p>Me encanta en estos momentos que atravesamos conocer gente linda y ver aunque sea de manera virtual y jugando lugares que no imagine ver.</p>
-            </div>
-            <div class="product" id="product_4">
-
-                <p>Que  genial y que alegria que gente como ustedes se le ocurran estos proyectos para poder jugar un ratito :) </p>
-            </div>
-            <div class="product" id="product_5">
-
-                <p>Felicitaciones por esta hermosa y mágica posibilidad que nos ofrecen para viajar jugando!!! Vamos por más!!!! ✈ </p>
-            </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block w-100">
+            <p class="product">Estuvo muy bueno! Me encantó el juego, que es como mezcla de escape room y viajes. Tremenda idea que se sacaron! Muchas felicitaciones chicos. </p>
+          </div>
         </div>
+        <div class="carousel-item">
+          <div class="d-block w-100">
+            <p class="product">Un placer y gusto poder compartir este juego , muy lindo . A seguir jugando en estos viajes👏👏👏👏💪💪 </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100">
+            <p class="product">Gracias, la verdad que siempre estoy coordinando actividades ludicas y me di cuenta que tengo que jugar mas. Felicitaciones muy buena propuesta. </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100">
+            <p class="product">Me encanta en estos momentos que atravesamos conocer gente linda y ver aunque sea de manera virtual y jugando lugares que no imagine ver.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100">
+            <p class="product">Que  genial y que alegria que gente como ustedes se le ocurran estos proyectos para poder jugar un ratito :) </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100">
+            <p class="product">Felicitaciones por esta hermosa y mágica posibilidad que nos ofrecen para viajar jugando!!! Vamos por más!!!! ✈ </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   </section>
   <div id="pago" class="pago text-center">
-    <h2>Sumate a esta experiencia!</h2>
+    <h2>Sumate a este viaje!</h2>
     <p>Consegui tu pasasje acá!</p>
     <a href="https://mpago.la/1jAmkfq" target="_blank">
       <button type="button" class="btn btn-success" name="button">Comprar Pasaje</button>
@@ -100,18 +105,21 @@
     </div>
 
     <div class="form">
-      <form class="formulario" action="index.html" method="post">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" class="form-control">
-        <br>
-        <label for="email">e-mail</label>
-        <input type="email" name="email" placeholder="Juan-Perez93@ejemplo.com" class="form-control">
-        <br>
-        <label for="Newsletter">¿Te avisamos el proximo viaje?</label>
-        <input type="checkbox" name="Newsletter">
-        <br><br>
-        <input type="submit" name="Enviar" class="form__btm" value="Enviar">
-      </form>
+      <div id="main">
+        <form class="formulario" action="index.html" method="post">
+          <formulario v-model="contacto.nombre">
+            Nombre
+          </formulario>
+          <formulario v-model="contacto.email">
+            E-mail
+          </formulario>
+          <label for="Newsletter">¿Te avisamos el proximo viaje?</label>
+          <input v-model="contacto.newsletter"
+                 type="checkbox" name="Newsletter">
+          <br><br>
+          <input type="submit" name="Enviar" class="form__btm btn btn-primary" value="Enviar">
+        </form>
+    </div>
     </div>
   </footer>
 
@@ -120,7 +128,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="../js/vue/viajesMain.js"></script>
-  <script src="../js/complementos.js"></script>
+  <script src="../js/vue/contactoMain.js"></script>
   <script src="../js/main.js"></script>
 
   </body>
