@@ -402,6 +402,7 @@ button.btn__psj:hover {
   background-image: url("../images/zoom.jpg");
   background-position: center;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
@@ -421,6 +422,10 @@ button.btn__psj:hover {
   color: orange;
   text-shadow: 2px 2px black;
   text-align: center; }
+
+.viajes--wsp{
+  position: absolute;
+  top: -84px;}
 
 span.col {
   color: #fba000;
