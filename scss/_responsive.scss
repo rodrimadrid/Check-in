@@ -82,6 +82,9 @@
   .header__h2{
     margin-bottom: 10%;
   }
+  .product{
+    font-size: 1.45em;
+    height: 10em; } 
 }
 @media screen and (max-width: 640px){
   .logo{
@@ -189,6 +192,9 @@
   .pago{
     margin: 5em 10px;
   }
+  .product{
+    font-size: 1.2em;
+    height: 11em; }
   #reseñas{
     padding: 35px;
   }
@@ -204,7 +210,13 @@
   #reseñas{
     padding: 15px;
   }
+  .reseñas--title{
+    font-size: 2em;
+  }
   .product{
-    font-size: 1em; 
+    font-size: 1em;
+    height: 16em;
+    margin-top: 5em;
+    margin: 20px 15px;
   }
 }

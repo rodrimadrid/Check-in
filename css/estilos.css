@@ -408,11 +408,11 @@ button.btn__psj:hover {
   align-items: center; }
 
 .product {
-  font-size: 1.45em;
-  height: 16em;
+  font-size: 2.45em;
+  height: 7em;
   margin: 20px 50px;
   padding: 30px;
-  margin-top: 5em;
+  margin-top: 2em;
   font-family: 'Roboto Condensed', sans-serif;
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center; }
@@ -421,7 +421,8 @@ button.btn__psj:hover {
   font-family: 'Bungee', cursive;
   color: orange;
   text-shadow: 2px 2px black;
-  text-align: center; }
+  text-align: center;
+  font-size: 3em; }
 
 .viajes--wsp{
   position: absolute;
@@ -522,7 +523,10 @@ a.col--link:hover {
     grid-template-columns: 50% 50%;
     grid-template-rows: 30% 25% 35% 7em; }
   .header__h2 {
-    margin-bottom: 10%; } }
+    margin-bottom: 10%; }
+  .product{
+    font-size: 1.45em;
+    height: 10em; } }
 
 @media screen and (max-width: 640px) {
   .logo {
@@ -598,6 +602,9 @@ a.col--link:hover {
     font-size: 2em; }
   .pago {
     margin: 5em 10px; }
+  .product{
+    font-size: 1.2em;
+    height: 11em; }
   #reseñas {
     padding: 35px; } }
 
@@ -608,5 +615,10 @@ a.col--link:hover {
     grid-template-rows: 40% 23% 27% auto; }
   #reseñas {
     padding: 15px; }
+  .reseñas--title{
+    font-size: 2em; }
   .product {
-    font-size: 1em; } }
+    font-size: 1em;
+    height: 16em;
+    margin: 20px 15px;
+    margin-top: 3em; } }
